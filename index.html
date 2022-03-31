@@ -10,6 +10,67 @@
     </head>
 
     <body>
-        
+        <div class="wrapper">
+            <div class="image-container">
+                <div class="logo-div">
+                    <img src="./images/odin-lined.png" width="80" height="110">
+                    <h1>ODIN</h1>
+                </div>
+            </div>
+
+            <div class="main-container">
+                <div class="top-content">
+                    <p>This is not a real online service! You know you need something like this
+                        in your life to help you realize your deepest dreams.
+                        Sign up <em>now</em> to get started.
+                    </p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+
+                <div class="form-container">
+                    <form class="sign-up-form">
+                        <legend>Let's do this!</legend>
+
+                        <ul>
+                            <li>
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </li>
+
+                            <li>
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" name="last_name">
+                            </li>
+
+                            <li>
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email">
+                            </li>
+
+                            <li>
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <input type="tel" id="phone_number" name="phone_number">
+                            </li>
+
+                            <li>
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="user_password" required>
+                            </li>
+
+                            <li>
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm_password" required>
+                            </li>
+                        </ul>
+                        
+                    </form>                    
+                </div><!--end of form container div-->
+
+                <div class="button-container">
+                    <button type="submit" id="create-acct-btn">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </div><!--end of main container div-->
+        </div><!--end of wrapper div-->
     </body>
 </html>

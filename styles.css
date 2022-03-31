@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.image-container {
+    width: 50%;
+    background-image: url('./images/bg-image3.avif');
+    background-size: cover;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, .50);
+    margin-top: 195px;
+    padding: 10px;
+}
+
+.top-content {
+    background-color: lightgrey;
+    padding: 81px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-container {
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+form {
+    margin-left: 60px;
+    margin-right: 100px;
+    padding: 10px;
+    width: 400px;
+}
+
+form legend {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+form label {
+    font-size: 14px;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul li {
+    width: 40%;
+    display: inline-block;
+    padding: 12px;
+}
+
+ul li > * {
+    width: 100%;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid blue;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+.button-container {
+    padding-top: 30px;
+    padding-left: 82px;
+}
+
+#create-acct-btn {
+    display: inline-block;
+    padding: .7em 2.3em;
+    border: 0.1em solid #000000;
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 0.5em;
+    background-color: #9a4ef1;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+#create-acct-btn:hover {
+    border-color: #9a4ef1;
+    background-color: white;
+    color: #9a4ef1;
+}
+
+.button-container p {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+a:link {
+    color: #9a4ef1;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9a4ef1;
+}
+
+a:hover {
+    color: black;
+}
