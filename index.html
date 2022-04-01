@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign-up Form</title>
         <link rel="stylesheet" href="./styles.css">
-        <script src="./script.js"></script>
+        <script src="./script.js" defer></script>
     </head>
 
     <body>
@@ -16,6 +16,9 @@
                     <img src="./images/odin-lined.png" width="80" height="110">
                     <h1>ODIN</h1>
                 </div>
+                <span class="photo-credit">Photo by <a href="https://unsplash.com/@valentinsteph">Stéphan Valentin</a> 
+                        on <a href="https://unsplash.com/photos/oqYLdbuJDQU">Unsplash</a>
+                </span>
             </div>
 
             <div class="main-container">
@@ -28,7 +31,7 @@
                 </div>
 
                 <div class="form-container">
-                    <form class="sign-up-form">
+                    <form class="sign-up-form" id="my-form">
                         <legend>Let's do this!</legend>
 
                         <ul>
@@ -62,12 +65,11 @@
                                 <input type="password" id="confirm_password" required>
                             </li>
                         </ul>
-                        
                     </form>                    
                 </div><!--end of form container div-->
 
                 <div class="button-container">
-                    <button type="submit" id="create-acct-btn">Create Account</button>
+                    <button type="submit" id="create-acct-btn" form="my-form">Create Account</button>
                     <p>Already have an account? <a href="">Log in</a></p>
                 </div>
             </div><!--end of main container div-->

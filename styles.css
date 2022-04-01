@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body {
     margin: 0;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -27,6 +31,7 @@ body {
     background-color: rgba(0, 0, 0, .50);
     margin-top: 195px;
     padding: 10px;
+    font-family: 'Dancing Script', sans-serif;
 }
 
 .top-content {
@@ -57,6 +62,7 @@ form legend {
 
 form label {
     font-size: 14px;
+    font-weight: bold;
 }
 
 ul {
@@ -115,15 +121,31 @@ input:invalid {
     font-size: 20px;
 }
 
-a:link {
+.button-container a:link {
     color: #9a4ef1;
     text-decoration: none;
 }
 
-a:visited {
+.button-container a:visited {
     color: #9a4ef1;
 }
 
-a:hover {
+.button-container a:hover {
     color: black;
+}
+
+.photo-credit {
+    padding-left: 105px;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.photo-credit a:link {
+    color: white;
+}
+
+.photo-credit a:visited {
+    color: white
 }
